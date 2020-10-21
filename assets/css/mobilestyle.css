@@ -1,0 +1,437 @@
+
+@font-face {
+    font-family: "jamun";
+    src: url(/assets/css/GoogleSans-Medium.ttf) format("truetype");
+}
+* {
+	font-family: "jamun",arial, sans-serif;
+	color: #545454;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+	font-family: "jamun";
+}
+
+.wrapper {
+
+	display: flex;
+    flex-direction: column;
+	min-height: 100%;
+	font-family: "jamun";
+	
+}
+
+.wrapper.indexPage {
+	justify-content: center;
+	font-family: "jamun";
+}
+
+
+
+.header {
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #ebebeb;
+	font-family: "jamun";
+}
+
+.wrapper .headerContent {
+	display: flex;
+	align-items: center;
+	font-family: "jamun";
+}
+
+.headerContent .searchContainer {
+	flex: 1;
+	font-family: "jamun";
+}
+
+.headerContent .searchContainer form {
+	margin: 38px 2% 51px 2%;
+	font-family: "jamun";
+}
+
+
+.headerContent .searchBarContainer {
+	height: 110px;
+	border-radius: 17px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+	/* width: 90%; */
+	box-sizing: border-box;
+	display: flex;
+	font-family: "jamun";
+}
+.headerContent .searchBarContainer:hover {
+	height: 110px;
+	border-radius: 17px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 7px 7px 0 rgba(0,0,0,0.26), 0 0 0 6px rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	display: flex;
+	font-family: "jamun";
+}
+.headerContent .searchBarContainer .searchBox {
+	border: none;
+	/* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08); */
+	height: 110px;
+	border-radius: 66px;
+	outline: none;
+	padding: 24px;
+	box-sizing: border-box;
+	font-size: 53px;
+	width: 90%;
+	color: #000;
+	font-family: "jamun";
+}
+
+.headerContent .searchBarContainer .searchButton {
+	background-color: #fff;
+	height: 110px;
+	border: transparent;
+	border-radius: 141px;
+	margin-top: 0;
+	width: 69px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: center;
+	padding:11px;
+	font-family: "jamun";
+	border: transparent;
+}
+
+.headerContent .searchBarContainer .searchButton img {
+	width: 60px;
+	padding: 15px;
+}
+
+
+.tabsContainer {
+	margin-left: 4%;
+	font-family: "jamun";
+}
+
+.tabsContainer .tabList {
+	padding: 0;
+	margin: 0;
+	font-family: "jamun";
+}
+
+.tabsContainer .tabList li {
+	display: inline-block;
+	padding: 0 16px 12px 16px;
+	color: #777;
+	font-size: 13px;
+	font-family: "jamun";
+}
+
+.tabsContainer .tabList li a {
+	text-decoration: none;
+	font-family: "jamun";
+	font-size: 37px;
+	font-weight: bold;
+}
+
+.tabsContainer .tabList li.active {
+	border-bottom: 7px solid #1A73E8;
+	font-family: "jamun";
+}
+
+.tabsContainer .tabList li.active a {
+	font-weight: bold;
+	color: #1A73E8;
+	font-family: "jamun";
+	font-size: 37px;
+}
+
+.mainResultsSection {
+	flex: 1;
+	font-family: "jamun";
+}
+
+.mainResultsSection .resultsCount {
+	font-size: 21px;
+	color: #808080;
+	margin-left: 5%;
+	font-family: "jamun";
+}
+
+.mainResultsSection .siteResults {
+	font-family: "jamun";
+}
+
+.resultContainer {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	font-family: "jamun";
+	/* height: 110px; */
+	border-radius: 17px;
+	border: none;
+	background-color: #fff;
+	margin: 20px 2% 20px 2%;
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+	display: flex;
+	padding: 3%;
+	font-family: "jamun";
+}
+
+.resultContainert {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	font-family: "jamun";
+	/* height: 110px; */
+	border-radius: 17px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 0px 10px 0 rgba(0,0,0,0.26), 0 0 0 6px rgba(0,0,0,0.1);
+	margin: 20px 2% 20px 2%;
+	display: flex;
+	padding: 3%;
+	font-family: "jamun";
+}
+
+.resultContainert p{
+	font-family:'jamun'; 
+	font-size: 55px; 
+	margin: 0%;
+}
+
+.resultContainer .title {
+	margin: 0;
+	font-family: "jamun";
+}
+
+.resultContainer .title a {
+	color: #1a0dab;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 26px;
+	font-family: "jamun";
+}
+
+.resultContainer .title a:hover {
+	text-decoration: underline;
+	font-family: "jamun";
+}
+
+.resultContainer .url {
+	color: #006621;
+	font-size: 14px;
+	font-family: "jamun";
+}
+
+.resultContainer .description {
+	font-size: 12px;
+	font-family: "jamun";
+}
+
+.paginationContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+	font-family: "jamun";
+	margin: 56px 0 72px 0;
+}
+
+.pageButtons {
+	display: flex;
+	font-family: "jamun";
+}
+
+.pageNumberContainer img {
+	height: 90px;
+}
+
+.pageNumberContainer,
+.pageNumberContainer a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	font-family: "jamun";
+}
+
+.pageNumber {
+	color: #000;
+	font-size: 41px;
+	font-family: "jamun";
+}
+
+a .pageNumber {
+	color: #4285f4;
+	font-family: "jamun";
+}
+
+.mainResultsSection .imageResults {
+	margin: 20px;
+	font-family: "jamun";
+}
+
+.gridItem {
+	position: relative;
+	font-family: "jamun";
+}
+
+.gridItem img {
+	max-width: 200px;
+	min-width: 50px;
+	visibility: hidden;
+}
+
+.gridItem .details {
+	visibility: hidden;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	font-size: 11px;
+	padding: 3px;
+	box-sizing: border-box;
+	white-space: nowrap;
+	font-family: "jamun";
+}
+
+.gridItem:hover .details {
+	visibility: visible;
+	font-family: "jamun";
+}
+
+
+.headline{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right: 10px;
+    font-size: 75%;
+	font-family: "jamun";
+   }
+
+
+.headline a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	transition-duration: 500ms;
+	font-family: "jamun";
+}
+
+.headline a:hover {
+	text-decoration: underline;
+	transition-duration: 500ms;
+	font-family: "jamun";
+}
+
+.footer {
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 75%;
+	font-family: "jamun";
+}
+
+.footer a {
+	text-decoration: none;
+    font-weight: normal;
+	font-family: "jamun";
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #08d0f3;
+    transition-duration: 500ms;
+	font-family: "jamun";
+}
+
+.information a:hover {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #000000;
+    transition-duration: 500ms;
+	font-family: "jamun";
+}
+
+.information a {
+	text-decoration: none;
+    transition-duration: 500ms;
+	font-family: "jamun";
+}
+
+.headertab p{
+    font-family: "jamun", Verdana, Tahoma;
+}
+
+p.headertab {
+	font-family: "jamun";
+}
+
+
+
+
+/* CSS for mobile */
+
+.header {
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #ebebeb;
+	font-family: "jamun";
+}
+
+.tallhead{
+	position:relative;
+	align-items:center;
+	flex-direction:column;
+	display:flex;
+	flex:1;
+	justify-content:center;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	list-style: none;
+	height: 80px;
+	margin: 56px 0% 22px 0%;
+}
+
+.tallhead img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 97px;
+	align-items:center;
+	padding-right:30px;
+}
+.wrapper .headerContent {
+	display: flex;
+	align-items: center;
+	font-family: "jamun";
+}
+
+.headerContent .logoContainer {
+	width: 150px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	font-family: "jamun";
+}
+
+.headerContent .searchContainer {
+	flex: 1;
+	font-family: "jamun";
+}
+
+hr.info{
+	border-bottom: 7.5px solid;
+	width: 100%;
+	border-left: 1px;
+	height: 3px;
+	border-color: #FFFFFF;
+	border-top: 0.5px solid #0000003d;
+	background-color: #FFFFFF;
+}
